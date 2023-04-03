@@ -1,1 +1,18 @@
-/* YOUR STYLES HERE */
+h1 {
+  color: white;
+  background-color: black;
+}
+
+img {
+  height: 250px;
+}
+
+h6 {
+  background-color: #1d2531;
+  color: #ffdb6d;
+  border: 3px;
+  border-style: solid;
+  border-color: #ffdb6d;
+  text-align: center;
+  padding: 1rem;
+}
