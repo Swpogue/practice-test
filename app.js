@@ -52,8 +52,3 @@ for (let i = 0; i <= 100; i += 10) {
 console.log("Finished")
 
 console.log(`${user.name} lives at ${user.address.street}, ${user.address.city}`)
-
-
-// **Working with an array of objects in JavaScript**
-// Iterate over the `cases` array and log the title and release year of each story
-//- Iterate over the `cases` array and log only the title of cases released in the year `1903`
