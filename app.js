@@ -18,6 +18,7 @@ const cases = [
 
 var currentYear = 2023
 var jsReleaseYear = 1995
+
 console.log("current age of JavaScript is " + (currentYear - jsReleaseYear));
 
 if (currentYear - jsReleaseYear >= ageToVote) {
@@ -34,6 +35,7 @@ for (let i = 0; i <= 100; i += 10) {
   }
 }
 console.log("Finished");
+
 console.log(`${user.name} lives at ${user.address.street}, ${user.address.city}`);
 
 for (let i = 0; i < cases.length; i++) {
@@ -42,6 +44,7 @@ for (let i = 0; i < cases.length; i++) {
 }
 for (let i = 0; i < cases.length; i++) {
   const currentCase = cases[i];
-  if (currentCase.releaseYear == 1903)
+  if (currentCase.releaseYear == 1903) {
     console.log(`${currentCase.title}`);
+  }
 }
